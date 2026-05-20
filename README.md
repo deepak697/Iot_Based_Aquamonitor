@@ -81,9 +81,15 @@ http://localhost:3000
 
 ![Output](./src/images/working_ouput1.png)
 
-![Output](./src/images/working_output2.PNG)
+<p align="center">
+  <img src="./src/images/working_output1.PNG" height="50%" width="80%"/>
+</p>
 
-![Output](./src/images/working_output3.PNG)
+
+<p align="center">
+  <img src="./src/images/working_output2.PNG" height="50%" width="80%"/>
+</p>
+
 
 ```text
 Arduino Sensors Data
