@@ -77,6 +77,7 @@ http://localhost:3000
 
 ## 📊 Sample Output
 
+![Dashboard Screenshot](./src/images/working)
 ```text
 Arduino Sensors Data
 THE TEMPERATURE IS GOOD AND PH IS HIGH YOU NEED TO MONITOR THE PH !!!!!!
