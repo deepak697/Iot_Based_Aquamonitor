@@ -65,6 +65,9 @@ http://localhost:3000
 * Jumper Wires
 * USB Cable
 
+![Hardware setup](./src/images/hardware_connection.JPG)
+
+
 ### Workflow
 
 1. Sensors collect water data.
