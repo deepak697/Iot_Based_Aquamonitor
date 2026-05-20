@@ -78,6 +78,13 @@ http://localhost:3000
 ## 📊 Sample Output
 
 ![Output](./src/images/working_output.jpeg)
+
+![Output](./src/images/working_output1.png)
+
+![Output](./src/images/working_output2.png)
+
+![Output](./src/images/working_output3.png)
+
 ```text
 Arduino Sensors Data
 THE TEMPERATURE IS GOOD AND PH IS HIGH YOU NEED TO MONITOR THE PH !!!!!!
