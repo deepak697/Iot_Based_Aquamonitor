@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# IoT Based AquaMonitor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An IoT-based smart aquaculture monitoring system that helps monitor water quality parameters such as **temperature** and **pH levels** in real time. The project uses **Arduino/NodeMCU ESP8266**, sensors, and a **React web application** to display live sensor data and alerts.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* Real-time temperature monitoring
+* Real-time pH level monitoring
+* IoT integration using NodeMCU ESP8266
+* React frontend for live data visualization
+* Express.js backend API
+* Sensor status alerts and recommendations
+* Responsive web interface
+* Easy integration with additional sensors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### Frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React.js
+* React Router DOM
+* CSS
 
-### `npm run build`
+### Backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Node.js
+* Express.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Hardware / IoT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* NodeMCU ESP8266
+* Arduino IDE
+* pH Sensor
+* Temperature Sensor
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Start React Frontend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend runs on:
 
-## Learn More
+```bash
+http://localhost:3000
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔌 Hardware Setup
 
-### Code Splitting
+### Components Required
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* NodeMCU ESP8266
+* pH Sensor
+* Temperature Sensor
+* Breadboard
+* Jumper Wires
+* USB Cable
 
-### Analyzing the Bundle Size
+### Workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Sensors collect water data.
+2. NodeMCU processes sensor values.
+3. Data is sent to the backend server.
+4. React frontend fetches and displays live readings.
+5. Alerts are shown when values exceed safe ranges.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📊 Sample Output
 
-### Advanced Configuration
+```text
+Arduino Sensors Data
+THE TEMPERATURE IS GOOD AND PH IS HIGH YOU NEED TO MONITOR THE PH !!!!!!
+Temperature = 28°C
+pH Value = 8.2
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+# 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+IoT_Based_AquaMonitor/
+│
+├── frontend/          # React frontend
+├── backend/           # Node.js + Express backend
+├── arduino/           # NodeMCU ESP8266 code
+├── README.md
+└── package.json
