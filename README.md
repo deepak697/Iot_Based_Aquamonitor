@@ -82,12 +82,12 @@ http://localhost:3000
 ![Output](./src/images/working_ouput1.png)
 
 <p align="center">
-  <img src="./src/images/working_output2.PNG" height="300"/>
+  <img src="./src/images/working_output2.PNG" height="700"/>
 </p>
 
 
 <p align="center">
-  <img src="./src/images/working_output3.PNG" height="300"/>
+  <img src="./src/images/working_output3.PNG" height="700"/>
 </p>
 
 
